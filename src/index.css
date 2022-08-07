@@ -88,6 +88,5 @@ form button{
 }
 form button:hover{
   background-color: rgb(54, 17, 92);
-
-
+  display:  block;
 }
