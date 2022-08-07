@@ -5,7 +5,7 @@
 }
 body {
   margin: 0;
-  background-color: #639;
+  background-color: rgb(102, 51, 153);
   height: 100vh;
   font-family: 'Inter', sans-serif;
 }
@@ -19,7 +19,7 @@ body {
 }
 form {
   background-color: white;
-  padding: 50px;
+  padding: 25px 50px;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -37,12 +37,19 @@ input[type="text"]{
   font-family: 'Inter', sans-serif;
 }
 textarea{
-  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
   margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid gray;
   padding: 5px;
   font-family: 'Inter', sans-serif;
+}
+select{
+    width: 110px;
+    border-radius: 5px;
+    height: 30px;
+    margin-top: 10px;
 }
 .form-label{
   font-size: 14px;
@@ -55,15 +62,32 @@ input[type="checkbox"]{
   margin-bottom: 20px;
 }
 fieldset{
-  padding: 5px;
+padding: 5px 10px;
  margin-bottom: 20px;
  align-self: flex-start;
+}
+fieldset label{
+  margin-left: 5px;
+}
+fieldset input{
+  margin-bottom: 10px;
 }
 .div-sel{
   align-self: flex-start;
   margin-bottom: 20px;
 }
-button{
+form button{
   width: 100%;
-  padding: 5px;
+  padding: 10px 5px;
+  background-color: rgb(102, 51, 153);
+  border: none;
+  border-radius: 5px;
+  color: whitesmoke;
+  transform: scale(1);
+  transition: background-color 300ms 150ms ;
+}
+form button:hover{
+  background-color: rgb(54, 17, 92);
+
+
 }
