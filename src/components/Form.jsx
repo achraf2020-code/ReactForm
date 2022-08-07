@@ -27,6 +27,7 @@ const Form = ()=>{
     return(
         <div className="form" onSubmit={handleSubmit}>
            <form>
+            <h1>Sign Form</h1>
                 <input 
                     type="text"
                     placeholder="First name"

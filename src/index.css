@@ -27,6 +27,10 @@ form {
   box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
   width: 420px;
 }
+form h1{
+  color: #222222;
+  margin-bottom: 30px;
+}
 input[type="text"]{
   width: 100%;
   margin-bottom: 20px;
